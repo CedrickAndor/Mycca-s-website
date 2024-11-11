@@ -1,0 +1,618 @@
+img {width: 200px;
+}
+
+*{scroll-behavior: smooth;}
+
+.TA{margin-top: 100px;
+width: 100%;
+height: 100%;
+background-image: url(start.gif);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-size: 50px;}
+
+.TA h1{text-align: center;
+padding-top: 70px;
+color: white;}
+
+button{margin-left: 485px;
+font-size: 50px;
+margin-top: 10px;
+border:none;
+background-color: rgb(200, 0, 0);
+color: white;
+padding:10px;
+border-radius: 30px;
+margin-bottom: 70px;}
+
+.align{text-align: center;
+padding-top: 50px;}
+
+.id{padding-left: 490px;
+width: 200px;}
+
+.VIRUSES{text-align: center;
+padding-top: 50px;}
+
+.worms{padding-left: 450px;
+width: 300px;}
+
+.on{text-align: center;
+padding-top: 50px;}
+
+.civil{padding-left: 450px;
+width: 300px;}
+
+button:hover{opacity: 0.8;
+box-shadow: 5px 5px 10px black;
+cursor: pointer;}
+button:active{opacity: 0.5;}
+
+.navbar {position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: white;
+overflow: hidden;
+color: black;
+margin: auto;
+padding: 10px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1;
+}
+.navbar a {
+float: left;
+color: black;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+transition: 0.5s;
+}
+
+.navbar a:hover {
+transition: 0.5s;
+font-size: 30px;
+color: rgb(177, 5, 5);
+}
+
+.symbol:hover {width: 250px;
+transition: 0.5s;}
+
+.symbol{
+width: 200px;
+margin-left: 10px;
+margin-top: auto;
+ margin-bottom: auto;
+transition: 0.6s;}
+
+.begin {margin-top: 100px;
+width: 100%;
+height: 100vh;
+background-image: url(frontgif.gif);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-size: 50px;}
+
+.begin h1 {text-align: center;
+padding-top: 70px;
+color: white;}
+
+.break2 {width: 100%;
+height: 50vh;
+display: block;}
+
+.paragraph {font-size: 30px;
+text-align: center;
+width: 95%;
+margin-left: 25px;
+color: white;}
+
+.key {text-align: center;
+margin-top: 80px;
+margin-bottom: 100px;
+font-size: 50px;
+margin-left: 25px;
+color:white;}
+
+
+.first {margin-bottom: 50px;
+color:white;}
+.second {margin-bottom: 50px;
+color:white;}
+.third {margin-bottom: 50px;
+color:white;}
+.fourth {margin-bottom: 50px;
+color:white;}
+.fifth {margin-bottom: 50px;
+color:white;}
+.sixth {margin-bottom: 100px;
+color:white;}
+
+
+.uno {width: 70px;
+margin: auto;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 40px;}
+
+.autho {width: 70px;
+margin: auto;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 40px;}
+
+.encrypt {width: 70px;
+margin: auto;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 40px;}
+
+.fw {width: 75px;
+margin: auto;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 42px;}
+
+.bug {width: 75px;
+margin: auto;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 40px;}
+
+.update {width: 100px;
+margin: auto;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 35px;}
+
+.background {width: 100%;
+height:100%;
+background-image: url("back.jpg");
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size:cover;
+text-align:center;
+font-size: 30px;
+margin-left: 50px;
+margin-top: 0px;
+margin:0px;
+padding-bottom: 150px;}
+
+.net{width: 75px;
+margin: auto;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 50px;}
+
+.private{width: 75px;
+margin: auto;
+margin-top: 50px;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 50px;}
+
+.spy{width: 80px;
+margin: auto;
+margin-top: 50px;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 50px;}
+
+.control{width: 90px;
+margin: auto;
+margin-top: 2px;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 50px;}
+
+.sec{width: 120px;
+margin: auto;
+margin-top: 2px;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 40px;}
+
+.secu{width: 70px;
+margin: auto;
+margin-top: 2px;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 65px;}
+
+.teach{width: 250px;
+margin: auto;
+margin-bottom: 20px;
+display:flex;
+float: left;
+position:absolute;
+margin-left: 65px;}
+
+.conclusion{color: white;
+text-align: right;
+margin-right: 100px;
+font-size: 40px;
+padding-top: 50px;}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+position:relative;
+width: 100%;
+font-size: 50px;}
+
+.foot{text-decoration: none;
+color: white;}
+.foot:hover{color: red;}
+
+*{margin:0px;}
+
+.begin2{margin-top: 120px;
+width: 100%;
+height: 100vh;
+background-image: url(hackersgif.gif);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 0%;
+font-size: 50px;}
+
+.begin2 h1{text-align: center;
+padding-top: 70px;
+color: white;}
+
+.object {margin-top: 120px;
+width: 100%;
+height: 100vmax;
+background-image: url(objective.jpg);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 0;
+font-size: 50px;
+padding-bottom: 600px;}
+
+.object h1{text-align: center;
+padding-top: 50px;
+color: white;}
+
+.what {color: white;
+margin-top: 50px;
+text-align: center;
+font-size: 90px;
+padding-top: 50px;}
+
+.fake {position: relative;
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;}
+
+.rob{width: 300px;}
+
+.hacking {color: white;
+margin-top: 50px;
+text-align: center;
+font-size: 90px;
+padding-top: 50px;}
+
+.taking{position: relative;
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;}
+
+.getting{width: 300px;}
+
+.avoid{color: white;
+margin-top: 50px;
+text-align: center;
+font-size: 70px;
+padding-top: 50px;}
+
+.ransom{position: relative;
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;}
+
+.get{width: 300px;}
+
+.break3{width: 100%;
+height: 20vh;
+display: block;}
+
+.greenback{width: 100%;
+height:100%;
+background-image: url("green.jpg");
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size:cover;
+text-align:center;
+font-size: 30px;
+color: white;
+margin-left: 50px;
+margin-top: 0px;
+margin:0px;}
+
+.fraud{text-align: center;
+font-size: 40px;
+padding-top: 60px;}
+
+.includes{font-size: 40px;
+padding-top: 50px;}
+
+.samples{text-align: left;
+padding-left: 50px;
+padding-top: 50px;}
+  
+.samples ul{padding-bottom: 30px;}
+
+.deftheft{text-align: center;
+padding-bottom: 130px;
+font-size: 40px;}
+
+.introhack{text-align: left;
+padding-left: 50px;
+padding-top: 50px;}
+
+.introhack ul{padding-bottom: 30px;}
+
+.unauthorized{text-align: center;
+padding-top: 60px;
+font-size: 40px;}
+
+.endhack{text-align: center;
+padding-bottom: 130px;
+font-size: 40px;}
+
+.defavoid{padding-top: 60px;
+text-align: center;
+font-size: 40px;}
+
+.tips{text-align: left;
+padding-left: 50px;
+padding-top: 50px;}
+.tips ul{padding-bottom: 30px;}
+.endprob{padding-bottom: 50px;}
+
+.masked{width: 350px;
+display:flex;
+margin:auto;
+margin-bottom: 50px;
+float: left;
+position:absolute;
+padding-bottom: 100px;}
+
+.conclusion2{color: white;
+text-align: right;
+margin-right: 100px;
+font-size: 40px;
+padding-top: 40px;
+padding-bottom: 150px;}
+
+.virusattack{margin-top: 100px;
+width: 100%;
+height: 100vh;
+background-image: url(vattack.gif);
+background-attachment:fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-size: 50px;}
+.virusattack h1{text-align: center;
+padding-top: 90px;
+color: white;}
+
+.backvirus{margin-top: 120px;
+width: 100%;
+height: 100%;
+background-image: url(virusback.jpg);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 0;
+font-size: 50px;}
+.backvirus h1{color: white;
+text-align: center;}
+
+.break4{width: 100%;
+height: 30vh;
+display: block;}
+
+.redback{width: 100%;
+height:100%;
+background-image: url("redback.jpg");
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size:cover;
+text-align:center;
+font-size: 30px;
+color: white;
+margin-left: 50px;
+margin-top: 0px;
+margin:0px;}
+
+.defvirus{text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+font-size: 50px;
+margin-left: 25px;
+color:white;}
+
+.virusdef{text-align: center;
+padding-bottom: 130px;
+font-size: 40px;
+padding-top: 50px;}
+
+.spyglass{width: 300px;
+display:flex;
+margin:auto;
+padding-bottom: 50px;
+margin-bottom: 50px;
+float: left;
+position:absolute;
+margin-left: 90px;}
+
+.conclusion3{color: white;
+text-align: right;
+margin-right: 100px;
+padding-top: 50px;
+padding-bottom: 100px;}
+
+.violetfront{margin-top: 120px;
+width: 100%;
+height: 100vh;
+background-image: url(violet.gif);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 0%;
+font-size: 50px;}
+.violetfront h1{text-align: center;
+padding-top: 70px;
+color: white;}
+
+.purple{margin-top: 120px;
+width: 100%;
+height: 100%;
+background-image: url(violetintro.jpg);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 0;
+font-size: 50px;}
+.purple h1{text-align: center;
+padding-top: 50px;
+color: white;}
+
+.violetback{width: 100%;
+height:100%;
+background-image: url("violetbackground.jpg");
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size:cover;
+text-align:center;
+font-size: 30px;
+color: white;
+margin-left: 50px;
+margin-top: 0px;
+margin:0px;}
+
+.soceng{text-align: center;}
+.cybercrime{text-align: center;
+margin-right: 40px;
+padding-top: 60px;
+font-size: 40px;}
+
+.introsocial{text-align: left;
+padding-left: 10px;
+padding-top: 50px;}
+
+.endviolet{text-align: center;
+padding-bottom: 130px;
+font-size: 40px;
+padding-right: 40px;}
+
+.onlineannoyances{text-align: center;
+padding-bottom: 50px;
+font-size: 50px;}
+
+.tipss{text-align: left;
+padding-left: 10px;
+padding-top: 50px;}
+.tipss ul{padding-bottom: 30px;}
+
+.learnmore{margin-top: 120px;
+width: 100%;
+height: 100%;
+background-image: url(lastpage.jpg);
+background-attachment: fixed;
+background-position: 0px 65px;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 0%;
+font-size: 50px;}
+
+.us{text-align: center;
+padding-top: 70px;
+color: white;}
+
+.learnmore p{text-align: center;
+font-size: 35px;
+padding-top: 30px;
+color: white;}
+
+.mission{text-align: center;
+padding-top: 70px;
+color: white;}
+
+.team{padding-top: 70px;
+text-align: center;
+color: white;}
+.happen{text-align: center;
+color: white;}
+
+
+.contributors img{
+margin: 5px;}
+
+.contributors{width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.contributors-container{height: 70vh;
+background-color: #333;
+padding: 30px;
+margin: 10px;
+text-align: center;
+color: white;
+font-size: medium;}
+
+.contributors-container h3{color: white;}
+
+.contributors-container ul{list-style: square;
+margin: 5px;
+text-align: justify;}
+
+.underline{width: 50%;
+margin-left: auto;
+margin-right: auto;
+padding: 1px;
+background-color: white;}
+
